@@ -16,4 +16,7 @@ header{
   display: inline-block;
 }
 .main-visual-content{
-  background-image: url();
+  width: 1000px;
+  height: 451px;
+  background-image: url(../../img/mv.jpg);
+}
