@@ -4,9 +4,9 @@
   box-sizing:border-box;
   }
 header{
+  width: 100%;
   font-size:32px;
   text-align: center;
-  line-height: 300px
 }
 .nav-list{
   text-align: center;
@@ -14,9 +14,15 @@ header{
 .nav-list-item{
   list-style: none;
   display: inline-block;
+  margin:0 20px;
 }
-.main-visual-content{
+main{
   width: 1000px;
   height: 451px;
-  background-image: url(../../img/mv.jpg);
+  margin:0;
+}
+.main-visual-content{
+  background:#000 no-repeat center center/ cover;
+  background-image: url(.//img/mv.jpg);
+  display: block;
 }
