@@ -1,7 +1,8 @@
-＊{
+*{
   margin:0;
   padding: 0;
   box-sizing:border-box;
+  color: #6c6b6b;
   }
 header{
   width: 100%;
@@ -22,7 +23,8 @@ main{
   margin:0;
 }
 .main-visual-content{
-  background:#000 no-repeat center center/ cover;
-  background-image: url(.//img/mv.jpg);
-  display: block;
+  height: 451px;
+  background-image: url("img/mv.jpg");
+  background-size: cover;
+  background-position: top center;
 }
